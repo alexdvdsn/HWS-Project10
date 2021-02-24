@@ -13,6 +13,7 @@
 		F4E457D125E5C79800D96492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E457CF25E5C79800D96492 /* Main.storyboard */; };
 		F4E457D325E5C79900D96492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E457D225E5C79900D96492 /* Assets.xcassets */; };
 		F4E457D625E5C79900D96492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E457D425E5C79900D96492 /* LaunchScreen.storyboard */; };
+		F4E457E125E5CEB600D96492 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E457E025E5CEB600D96492 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		F4E457D225E5C79900D96492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E457D525E5C79900D96492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E457D725E5C79900D96492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E457DE25E5C7E500D96492 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4E457E025E5CEB600D96492 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		F4E457BD25E5C79800D96492 = {
 			isa = PBXGroup;
 			children = (
+				F4E457DE25E5C7E500D96492 /* README.md */,
 				F4E457C825E5C79800D96492 /* Project10 */,
 				F4E457C725E5C79800D96492 /* Products */,
 			);
@@ -60,6 +64,7 @@
 				F4E457CB25E5C79800D96492 /* SceneDelegate.swift */,
 				F4E457CD25E5C79800D96492 /* ViewController.swift */,
 				F4E457CF25E5C79800D96492 /* Main.storyboard */,
+				F4E457E025E5CEB600D96492 /* PersonCell.swift */,
 				F4E457D225E5C79900D96492 /* Assets.xcassets */,
 				F4E457D425E5C79900D96492 /* LaunchScreen.storyboard */,
 				F4E457D725E5C79900D96492 /* Info.plist */,
@@ -139,6 +144,7 @@
 			files = (
 				F4E457CE25E5C79800D96492 /* ViewController.swift in Sources */,
 				F4E457CA25E5C79800D96492 /* AppDelegate.swift in Sources */,
+				F4E457E125E5CEB600D96492 /* PersonCell.swift in Sources */,
 				F4E457CC25E5C79800D96492 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
